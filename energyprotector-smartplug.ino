@@ -215,15 +215,15 @@ void toggle_unit_state(int n) {
   units_state[n] = !units_state[n];
   if (units_state[n]) {
     if (n == 0) {
-      req_data_for_raspberry += "0;1;" + device_id + ";" + device_type + ";" + raspberry_id + ";" + raspberry_group + ";`REQ`\n"; 
+      req_data_for_raspberry += "0;1;" + device_id + ";" + device_type + ";" + raspberry_id + ";" + raspberry_group + ";`REQ\n"; 
     } else if (n == 1) {
-      req_data_for_raspberry += "1;1;" + device_id + ";" + device_type + ";" + raspberry_id + ";" + raspberry_group + ";`REQ`\n"; 
+      req_data_for_raspberry += "1;1;" + device_id + ";" + device_type + ";" + raspberry_id + ";" + raspberry_group + ";`REQ\n"; 
     }
   } else {
     if (n == 0) {
-      req_data_for_raspberry += "0;0;" + device_id + ";" + device_type + ";" + raspberry_id + ";" + raspberry_group + ";`REQ`\n"; 
+      req_data_for_raspberry += "0;0;" + device_id + ";" + device_type + ";" + raspberry_id + ";" + raspberry_group + ";`REQ\n"; 
     } else if (n == 1) {
-      req_data_for_raspberry += "1;0;" + device_id + ";" + device_type + ";" + raspberry_id + ";" + raspberry_group + ";`REQ`\n"; 
+      req_data_for_raspberry += "1;0;" + device_id + ";" + device_type + ";" + raspberry_id + ";" + raspberry_group + ";`REQ\n"; 
     }
   }
   
