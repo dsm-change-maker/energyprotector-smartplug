@@ -152,7 +152,7 @@ void loop() {
       toggle_unit_state(0);
       Serial.println("Button 0 Clicked");
     } else if (is_interrupted_1) {
-      is_interrupted_0 = false;
+      is_interrupted_1 = false;
       toggle_unit_state(1);
       Serial.println("Button 1 Clicked");
     }
